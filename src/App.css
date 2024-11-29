@@ -1,6 +1,42 @@
 .App {
   text-align: center;
-}
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #msg{
+    color: red;
+  }
+  input{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+
+  }
+  #subBtn{
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+  }
+  #subBtn:hover{
+    background-color: black;
+    border: 1px white solid;
+    color: white;
+    cursor: pointer;
+    
+  }
+  .head{
+    margin: 0;
+    color: white;
+    font-size: 50px;
+  }
 
 .App-logo {
   height: 40vmin;
